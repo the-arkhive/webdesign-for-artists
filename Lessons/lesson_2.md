@@ -7,10 +7,10 @@ In this lesson we will get a basic understanding of how we interact with the Git
 ### Git Commands
 
 NOTE UPDATE WITH FIXED CLONE PROCESS
-  - clone issues https vs git FIND FIX
-  - pull issues on Mac
   - Terminal install XCode command line tools
-  - install git
+  - install Git
+  - pull issues on Mac
+
 
 
 Git was originally made to be used with a command line or terminal, but it has also been adapted to more simplified use through Graphical User Interfaces (GUIs). The GitHub tab on the right side of Atom is one of these. Or rather the Git tab is, and the GitHub tab just provides us some info about our repo online. So let's click on the little `Git` button in the bottom right corner. You should get an interface that is split into 3 areas. The top one shows you which files in your repo have changed. If you open the README.md file, add some text and save, it should appear in the list with a yellow icon. This means Git has found changes to files and is ready to save them in a special way we call `Commits`. To move on to the next zone we need to `Stage` our changes. Do this by clicking the `Stage All` button in the upper right of the first zone. This should move any changes files down to the second zone. From there we are ready to make our first `Commit`. In the final box where it say `Commit message` add a message. Fir this lets just use something like "Learning git" or "testing commit". One that field is filled press `Commit to master`.
@@ -40,11 +40,25 @@ First things first I am going to give a link I had in the first lesson that will
 
 This file will basically teach you everything you need to make our first website, but for now we aren't getting into that. Instead we just want to learn Markdown. We went over in lesson 1 how to open the Markdown preview with `Ctrl+Shift+M`.
 
-Make a new file in your repo by right-clicking on the main folder and selecting `New File` then naming it whatever you want, just make sure it ends in `.md`. You can explore the cheat sheet and these lesson files to begin to understand what you can do with Markdown. The most general commands are below and in general require a space after them.
+Make a new file in the repo we made in lesson 1 by right-clicking on the main folder and selecting `New File` then naming it whatever you want, just make sure it ends in `.md`. You can explore the cheat sheet and these lesson files to begin to understand what you can do with Markdown. The most general commands are below and in general require a space after them.
 - `# `   - This makes the text after it be formatted as `Heading 1`
 - `## `  - This makes the text after it be formatted as `Heading 2`
 - `### ` - This makes the text after it be formatted as `Heading 3`
 - `- `   - This make a standard text bullet
 - `[TEXT](LINK)` - This allows you to embed links in your text, simply replace `TEXT` with what you want the link to say and `LINK` with the url you would like it to take you to
+- `![TEXT](LINK)` - This is what you do for images. The `TEXT` will not actually display anywhere, and the `!` renders the image inline rather than just providing the link
 
-Using these commands do a bit of writing in the file we just made, or in the README.md of your repo and use the preview to see what your changes will produce.
+Using these commands do a bit of writing in the file we just made, or in the README.md of your repo and use the preview to see what your changes will produce. GitHub is pretty cool because that README.md file will display as the rendered Markdown right on your repo's page. I used this to make my first portfolio with a link I could share and put on job applications.
+
+Between now and the next lesson fiddle around with Markdown a bit. Try to make the beginnings of a portfolio or home page. Feel free to check out the first version of my portfolio, which eventually became my home page, at the link below.
+- [Portfolio v1.0](https://github.com/thomas-williams/portfolio)
+
+<br>
+
+## Review
+- Git workflow
+- Using Git in Atom
+- More complex Markdown
+
+## Up Next
+### Lesson 3: GitHub Pages and Your First Website
