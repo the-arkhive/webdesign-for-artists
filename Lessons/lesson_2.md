@@ -50,8 +50,10 @@ Make a new file in the repo we made in lesson 1 by right-clicking on the main fo
 
 Using these commands do a bit of writing in the file we just made, or in the README.md of your repo and use the preview to see what your changes will produce. GitHub is pretty cool because that README.md file will display as the rendered Markdown right on your repo's page. I used this to make my first portfolio with a link I could share and put on job applications.
 
-Between now and the next lesson fiddle around with Markdown a bit. Try to make the beginnings of a portfolio or home page. Feel free to check out the first version of my portfolio, which eventually became my home page, at the link below.
+Between now and the next lesson fiddle around with Markdown a bit. Try to make the beginnings of a portfolio or home page. Feel free to check out the first version of my portfolio, which eventually became my home page, at the link below. The README.md file is what was eventually displayed as a webpage.
 - [Portfolio v1.0](https://github.com/thomas-williams/portfolio)
+
+A reminder that you can add any file to a repository. Try making a new folder in your repo and adding some pictures to it, then come back to Atom and look at the Git sidebar. If you go look at my first portfolio you can see I did this, and then could link to those images. I link to them in a way we will learn a little later, but the general process is the same.
 
 <br>
 
