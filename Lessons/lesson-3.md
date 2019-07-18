@@ -5,9 +5,9 @@ We will fire up a feature called `GitHub Pages` which will begin to show how we 
 <br>
 
 ### Rename Your Repo
-I know, I know, we just spent so much time getting it set up and now we have to rename it. This isn't very hard at all, and it's something I have used multiple times as I have made new version of my website. Go to you repository on GitHub and click on the settings tab toward the top of the page, and then change the text in the box to `USERNAME.github.io` where `USERNAME` is replaced with your GitHub username. I know this looks weird, but this is the first step to getting our website going. Once you have done this click `Rename`. You might get a warning about renaming changing the url, and we are about to fix that too, though in my experience sometimes everything still works just fine.
+I know, I know, we just spent so much time getting it set up and now we have to rename it. This isn't very hard at all, and it's something I have used multiple times as I have made new version of my website, so it's good to learn. Go to you repository on GitHub and click on the settings tab toward the top of the page, and then change the text in the box to `USERNAME.github.io` where `USERNAME` is replaced with your GitHub username. I know this looks weird, but this is the first step to getting our website going. Once you have done this click `Rename`. You might get a warning about renaming changing the url, and we are about to fix that too, though in my experience sometimes everything still works just fine.
 
-Now head back to Atom and you may as well give the `Pull` command a shot and see what happens. If you don't get any red error boxes, great, keep reading anyway, this is useful information. If you do get a red error box saying something about not finding a url then you've come to the right place. In the file tree sidebar on the left, open the `.git` folder that is inside the folder for your repository. This is where Git keep all its information about your repo. In that folder is a file name `config`. When you open this file you will see something that looks like this:
+Now head back to Atom and you may as well give the `Pull` command a shot and see what happens. If you don't get any red error boxes, great, keep reading anyway, this is useful information. If you do get a red error box saying something about not finding a url then you've come to the right place. In the file tree sidebar on the left, open the `.git` folder that is inside the folder for your repository. This is where Git keep all its information about your repo. In that folder is a file named `config`. When you open this file you will see something that looks like this:
 
 ```
 [core]
@@ -27,7 +27,7 @@ Now head back to Atom and you may as well give the `Pull` command a shot and see
 	merge = refs/heads/master
 ```
 
-You might have already spotted the url field. We are going to change this to make sure it matches our new one. Which you can either type out, or copy from your GitHub page for the repo. Save the file and do a `Pull` command to confirm things are working.
+You might have already spotted the url field. We are going to change this to make sure it matches our new one. Which you can either type out, or copy from your GitHub page for the repo. Save the file and do a `Push` command, followed by a `Pull` to confirm things are working.
 
 <br>
 
@@ -42,7 +42,7 @@ Many websites have multiple pages, and GitHub Pages handles this really well. Th
 You now have basically all the tools to get a rudimentary website off the ground. Try to build up a portfolio page and a home page (README.md) and make a link between them. Store these in the docs folder.
 HINT: your Markdown links can be what is called relative, meaning it uses the page linked from as the starting point so all you need to write is the ending of the url (i.e. `[Portfolio](/portfolio)`).
 
-This is what I used as a website for a few months while I learned more about this whole process and did other work, but I had a link I could give out at the very least. Maybe not the most professional looking link, but then again it's not the most professional looking website yet to be perfectly honest, but it works and hopefully you wont need to use it for months because of this tutorial.
+This is what I used as a website for a few months while I learned more about this whole process and did other work, but I had a link I could give out at the very least. Maybe not the most professional looking link, but then again it's not the most professional looking website yet to be perfectly honest, but it works and hopefully you wont be stuck with it for months for months because of this tutorial.
 
 <br>
 

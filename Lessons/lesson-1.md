@@ -1,7 +1,7 @@
 # LESSON 1
 
 ## Coding and GitHub Basics
-This lesson runs you through the basics of a code editor and GitHub. getting set up with an account, making your first project, and learning the very basics of a language called Markdown to jump start your coding chops, and get a page of sorts going very quickly. Each section will have some text describing the process and then links I have found that are particularly helpful or relevant.
+This lesson runs you through the basics of a code editor and GitHub. You will be getting set up with an account, making your first project, and learning the very basics of a language called Markdown to jump start your coding chops, as well as get a page of sorts going very quickly. Each section will have some text describing the process and then links I have found that are particularly helpful or relevant.
 
 <br>
 
@@ -9,24 +9,24 @@ This lesson runs you through the basics of a code editor and GitHub. getting set
 First things first we need a space we can start to work, namely because these lesson documents wont be able to be viewed in all their glory without a nice environment, so here we go, my top recommendation and then a few alternatives. In prepping for the future I would suggest VisualStudio Code if you want to eventually get into more complex work, and there is a version of this tutorial that if focused on VS Code, but for now we are going to use Atom.
 
 #### Atom
-Atom is great and I am honestly still learning it, but it is so easy to learn that's really not an issue. Atom is made by the developers of GitHub, so it plays very nicely with it and by extension Git, which we will be using a lot.
+Atom is great and I am honestly still learning it, but it is so easy to learn that's really not an issue. Atom is made by the developers of GitHub, so it plays very nicely with it and by extension Git, which we will be using a lot. For total beginners I would maybe lean toward Atom but in the long term would highly recommend VS Code. However VS Code will require a bit more setup that I will not be going into just yet, so if you'd like to try to tackle that on your own feel free to do so, just know that this tutorial currently contains instructions for Atom.
 
 #### VS Code
-VS Code is honestly a bit more powerful than we need for a while, but it will scale really nicely with the complexity of what we want to be doing and beyond. You could theoretically do this all in the most basic text editor, TextEdit on Mac and Notepad on Windows, but that becomes a pain so quickly. There are some more options that I have fiddled with and they are below.
+VS Code is honestly a bit more powerful than we need for a while, but it will scale really nicely with the complexity of what we want to be doing and beyond. You could theoretically do this all in the most basic text editor, TextEdit on Mac and Notepad on Windows, but that becomes a pain very quickly. There are some more options that I have fiddled with and they are below.
 <br>
 
 #### Editors
 - [Atom](https://atom.io/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Sublime Text](https://www.sublimetext.com/3)
-- For the more power user I recommend [XCode](https://developer.apple.com/xcode/) but I have been running of a PC for now so XCode isn't really an option.
-- If you want to go really hard and do this all from a terminal, you probably don't need my help at all, but [Vim](https://www.openvim.com/) is a standard editor, but will need to be coupled with other software to view files as they would be presented online.
+- [Sublime Text](https://www.sublimetext.com/3) This is essentially a plain text editor with a few additional bells and whistles, people that are very new to this will find it harder to use just a plain text editor, but if you're already comfortable with Git and HTML this could be a could fit and you probably do not need this tutorial
+- [XCode](https://developer.apple.com/xcode/) is also an option on Mac, but I don't have much experience with it at the moment because I am on a PC
+- If you want to go really hard and do this all from a terminal, you probably don't need my help at all, but [Vim](https://www.openvim.com/) is a standard editor, but will need to be coupled with other software to view files as they would be presented online as well as a bunch of other CLI tools.
 
 Download the editor you would like and install it. For this I am going to be using Atom for the reasons mentioned above, but I also whole heartedly endorse VS Code, and used it for a long time.
 
-###### NOTE: If you are using VS Code skip to the 'VS Code Basics' section for that, if you are using Atom just keep going to the next section after finishing this one. On top of that if you are using VS Code you will need an external GitClient, so know that the VS Code tutorial requires that, while the Atom one is all self contained.
+###### NOTE: If you are using VS Code skip to the 'VS Code Basics' section for that, if you are using Atom just keep going to the next section after finishing this one. There is currently only an Atom tutorial because I just haven't gotten to VS Code, but I personally use VS Code and while it is a bit more complex I would recommend learning it as it will carry you much further. Pretty much all of the Atom basics apply to VS Code
 <br>
-Setting up the environment will be somewhat different for each application, so I will run through what you need for Atom and VS Code (at least to start, as I learn Atom I will stop doing VS Code sections), and we will periodically add on extensions as we need them.
+Setting up the environment will be somewhat different for each application, so I will run through what you need for Atom and VS Code (at least to start), and we will periodically add on extensions as we need them.
 
 If you are using Atom we only need one for now and we wont even use it for a bit, but it will be nice to already have it.
 - [HTML Live Preview](https://atom.io/packages/atom-html-preview)
@@ -93,4 +93,4 @@ I am going to distribute this course through a GitHub repo of my own, which you 
 <br>
 
 ## Up Next
-### Lesson 2: Basic Git and More Complex Markdown
+### Lesson 2: Basic Git and Markdown

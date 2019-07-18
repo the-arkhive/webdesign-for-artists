@@ -24,4 +24,4 @@ FILLER
 - FILLER
 
 ## Up Next
-### Lesson 3: GitHub Pages and Your First Website
+### Lesson #: NEXT LESSON
