@@ -6,4 +6,5 @@ My goal here is to provide a dead simple tutorial to get started in personal web
 
 The documents in the repository are essentially an amalgamation of many tutorials I followed and posts I read while troubleshooting my own projects. I would now like to provide to others the general steps I took and tools I used in a single unified tutorial. This is not meant to be the end all be all tutorial on every tool or service I use, but instead a tutorial for a specific thing - cheap as possible, custom websites - and how I have developed a process I think is both simple to maintain and change, as well as scalable.
 
-To get started click the lessons folder above and then click on lesson one.
+### GETTING STARTED
+To get started click the lessons folder above and then click on `lesson-0.md` and then click the button that says `raw` just above where the content of lesson zero is displayed.
