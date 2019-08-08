@@ -84,4 +84,4 @@ In the next section we will begin to really flesh out this workflow,a dn learn a
 - Editing your site and adding images
 
 ## Up Next
-### Lesson 1: Moving to a "Real" Editor
+### Lesson 1: Spooky Scary Editors
